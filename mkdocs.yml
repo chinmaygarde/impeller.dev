@@ -11,11 +11,12 @@ theme:
     - navigation.tabs.sticky
     - navigation.instant
     - navigation.expand
+    - navigation.top
+    - navigation.sections
     - content.code.copy
     - content.action.view
     - content.tabs.link
     - toc.follow
-    - navigation.top
     - search.suggest
     - search.highlight
   palette:
