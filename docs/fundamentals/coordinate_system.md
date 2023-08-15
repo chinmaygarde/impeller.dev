@@ -20,7 +20,7 @@ The following table describes the Impeller coordinate system along with how it
 differs with that of popular client rendering APIs and backends.
 
 | API           | Normalized Device Coordinate                          | Viewport / Framebuffer Coordinate     | Texture Coordinate                   |
-|---------------|-------------------------------------------------------|---------------------------------------|--------------------------------------|
+|--------------:|-------------------------------------------------------|---------------------------------------|--------------------------------------|
 | **Impeller**  | `(-1,-1)` Bottom-Left, `(+1,+1)` Top-Right, `+Y` up.  | `(0,0)` Top-Left Origin, `+Y` down.   | `(0,0)` Top-Left Origin, `+Y` down.  |
 | **Metal**     | `(-1,-1)` Bottom-Left, `(+1,+1)` Top-Right, `+Y` up.  | `(0,0)` Top-Left Origin, `+Y` down.   | `(0,0)` Top-Left Origin, `+Y` down.  |
 | **OpenGL**    | `(-1,-1)` Bottom-Left, `(+1,+1)` Top-Right, `+Y` up.  | `(0,0)` Bottom-Left Origin, `+Y` up.  | `(0,0)` Bottom-Left Origin, `+Y` up. |

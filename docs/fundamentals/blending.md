@@ -17,7 +17,7 @@ layer, all Entities have an associated blend mode, which can be set via
 
 ## Glossary of blending terms
 | Term | Definition |
-| --- | --- |
+| ---:| --- |
 | Source color | Any color that is output by a fragment shader. |
 | Destination color | The backdrop color in a blend operation. |
 | Premultiplied color | A color that has its alpha multiplied into it. Used for additive blending operations as well as colors presented to a surface. |

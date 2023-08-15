@@ -2,6 +2,7 @@ site_name: Impeller
 
 theme:
   name: material
+  logo: assets/impeller_white.svg
   icon:
     repo: fontawesome/brands/github
   features:
