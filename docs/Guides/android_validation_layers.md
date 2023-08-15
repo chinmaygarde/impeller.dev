@@ -7,13 +7,13 @@ sure the layers are built and injected into the Flutter jar.
 Example:
 
 ```sh
-flutter/tools/gn \
-  --runtime-mode=debug \
-  --enable-impeller-vulkan \
+flutter/tools/gn                    \
+  --runtime-mode=debug              \
+  --enable-impeller-vulkan          \
   --enable-vulkan-validation-layers \
-  --no-lto \
-  --unoptimized \
-  --android \
+  --no-lto                          \
+  --unoptimized                     \
+  --android                         \
   --android-cpu=arm64
 ```
 
