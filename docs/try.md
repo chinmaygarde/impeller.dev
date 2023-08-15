@@ -1,3 +1,7 @@
+---
+title: Try It
+---
+
 ## Try Impeller in Flutter
 
 Impeller is available under the `--enable-impeller` flag on iOS, Android, and

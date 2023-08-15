@@ -8,7 +8,6 @@ theme:
   features:
     - content.action.edit
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.instant
     - navigation.expand
     - navigation.top

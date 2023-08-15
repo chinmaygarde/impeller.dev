@@ -8,6 +8,10 @@ It also generates C++ bindings that callers can include as a GN `source_set`s
 so there is no runtime shader reflection either. The target is an executable
 called `impellerc` which is never shipped into the binary or as an artifact.
 
+## Shader Compiler Explorer
+
+An interactive instance of the shader compiler is available online at [https://compiler.impeller.dev](https://compiler.impeller.dev)
+
 ## The Offline Shader Compilation Pipeline
 
 * Shaders are authored once in GLSL 4.60. This choice of shading language is
@@ -39,3 +43,4 @@ called `impellerc` which is never shipped into the binary or as an artifact.
   there are no Impeller components that do this currently.
 
 ![Shader Compilation Pipeline](assets/shader_pipeline.png)
+
