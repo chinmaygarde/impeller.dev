@@ -166,17 +166,3 @@ To your `AndroidManifest.xml` file, add under the `<application>` tag:
     android:name="io.flutter.embedding.android.EnableImpeller"
     android:value="true" />
 ```
-
-## Documentation, References, and Additional Reading
-
-* [Frequently Asked Questions](faq.md)
-* [Impellers Coordinate System](fundamentals/coordinate_system.md)
-* [How to Setup Xcode for GPU Frame Captures with Metal.](xcode_frame_capture.md)
-* [How to Setup RenderDoc Frame Captures with Vulkan.](renderdoc_frame_capture.md)
-* [Learning to Read GPU Frame Captures](read_frame_captures.md)
-* [How to Enable Metal Validation for Command Line Apps.](metal_validation.md)
-* [How Impeller Works Around The Lack of Uniform Buffers in Open GL ES 2.0.](ubo_gles2.md)
-* [Guidance for writing efficient shaders](shader_optimization.md)
-* [How color blending works in Impeller](blending.md)
-* [Enabling Vulkan Validation Layers on Android](android_validation_layers.md)
-* [Important Benchmarks](benchmarks.md)

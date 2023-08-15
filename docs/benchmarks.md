@@ -1,4 +1,4 @@
-# Impeller Benchmarks
+# Benchmarks
 
 Here are some noteworthy benchmarks related to Impeller performance:
 

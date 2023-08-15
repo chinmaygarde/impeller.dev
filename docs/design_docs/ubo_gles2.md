@@ -1,4 +1,4 @@
-# How Impeller Works Around The Lack of Uniform Buffers in Open GL ES 2.0.
+# GLES 2.0 UBO Emulation
 
 The Impeller Renderer API allows callers to specify uniform data in a discrete
 buffer. Indeed, it is conventional for the higher level layers of the Impeller
@@ -25,7 +25,7 @@ The metadata is usually a collection of items the runtime would need to infer
 the right `glUniform*` calls. An item in this collection would look like the
 following:
 
-```
+```c++
 struct ShaderStructMemberMetadata {
   ShaderType type; // the data type (bool, int, float, etc.)
   std::string name; // the uniform member name "frame_info.mvp"

@@ -1,12 +1,12 @@
-# Frequently Asked Questions
+# FAQ
 
-* How do I enable Impeller to try it out myself?
+### How do I enable Impeller to try it out myself?
   * See the instructions in the README on how to [try Impeller in
     Flutter](https://github.com/flutter/engine/tree/main/impeller#try-impeller-in-flutter).
   * Support on some platforms is further along than on others. The current
     priority for the team is to support iOS, Android, Desktops, and Embedder API
     users (in that rough order).
-* I am running into issues when Impeller is enabled, how do I report them?
+### I am running into issues when Impeller is enabled, how do I report them?
   * Like any other Flutter issue, you can report them on the [GitHub issue
     tracker](https://github.com/flutter/flutter/issues/new/choose).
   * Please explicitly mention that this is an Impeller specific regression. You
@@ -15,8 +15,7 @@
     Impeller](https://github.com/flutter/engine/tree/main/impeller#try-impeller-in-flutter).
   * Reduced test cases are the most useful.
   * Please also report any performance regressions.
-* What does it mean for an Impeller platform to be "in preview". How long will
-  be the preview last?
+### What does it mean for an Impeller platform to be "in preview". How long will be the preview last?
   * The team is focused on getting one platform right at a time. This includes
     ensuring all fidelity issues are fixed, performance issues addressed, and
     compatibility with plugins guaranteed.
@@ -40,7 +39,7 @@
   * Even once the preview ends, the developer can opt into the legacy rendering
     backend for a short period of time. The legacy backend will be removed after
     this period.
-* What can I expect when I opt in to using Impeller?
+### What can I expect when I opt in to using Impeller?
   * A high level overview of the status of project is [present on the
     wiki](https://github.com/flutter/flutter/wiki/Impeller#status).
   * All Impeller related work items are tracked on a [project specific dashboard
@@ -48,7 +47,7 @@
   * The team tracks known platform specific issues in their own milestones:
     * [iOS](https://github.com/flutter/flutter/milestone/77)
     * [Android](https://github.com/flutter/flutter/milestone/76)
-* Does Impeller use Skia for rendering?
+### Does Impeller use Skia for rendering?
   * No. Impeller has no direct dependencies on Skia.
   * When running with Impeller, Flutter does not create a Skia graphics context.
   * However, while Impeller still performs text rendering, text layout and
@@ -59,7 +58,7 @@
     image formats.
   * So, while Impeller does not use nor is a wrapper for Skia, some Skia
     components are still used by Flutter when rendering using Impeller.
-* Is Impeller going to be supported on the Web?
+### Is Impeller going to be supported on the Web?
   * The current priority for Impeller is to be amazing on all platforms targeted
     by the C++ engine. This includes iOS, Android, desktops, and, all Embedder
     API users. This would be by building Metal, Open GL, Open GL ES, and, Vulkan
@@ -86,8 +85,7 @@
     also that Impeller shaders can be [compiled to
     WGSL](https://github.com/chinmaygarde/wgsl_sandbox) for eventual WebGPU
     support.
-* How will Impeller affect the way in which Flutter applications are created and
-  packaged?
+### How will Impeller affect the way in which Flutter applications are created and packaged?
   * It won't.
   * Impeller, like Skia, is an implementation detail of the Flutter Engine.
     Using a different rendering package will not affect the way in which the
@@ -98,5 +96,5 @@
     includes all precompiled shaders.
   * Impeller is compiled into the Flutter engine. It is currently behind a flag
     as development progresses.
-* How do you run `impeller_unittests` with Playgrounds enabled?
+### How do you run `impeller_unittests` with Playgrounds enabled?
   * Specify the `--enable_playground` command-line option.
